@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .coming-soon-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+
+    background-image: url('./images/17450.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .image-half {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .image-half img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content-half {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b29879c;
+    transform: skew(-45deg);
+  }
+  
+  .text-content {
+    transform: skew(45deg);
+    text-align: center;
+    padding: 50px;
+    color: white;
+  }
+  
+  .text-content h1 {
+    font-size: 2.5em;
+    margin: 20px;
+  }
+  
+  .text-content p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+  }
+  
